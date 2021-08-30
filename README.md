@@ -17,10 +17,12 @@ yarn add reflect2json
 ```json
 {
   "compilerOptions": {
-    ... // otherCompilerOptions
+    "...otherCompilerOptions": "...",
+
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    ... // otherCompilerOptions
+
+    "...otherCompilerOptions": "..."
   }
 }
 ```
