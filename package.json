@@ -1,6 +1,6 @@
 {
   "name": "reflect2json",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A lib for reflect class to json with decorator.",
   "scripts": {
     "test": "jest",
@@ -18,7 +18,9 @@
     "json",
     "reflect",
     "class to json",
-    "json serialize"
+    "json serialize",
+    "json ignore",
+    "json format"
   ],
   "author": "linwrui",
   "license": "ISC",

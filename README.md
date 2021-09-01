@@ -1,6 +1,6 @@
 # reflect2json
 
-A lib for reflect class to json with decorator in `.ts file`.
+A lib for reflecting class to json with decorator in `.ts file`.
 
 ## Install
 
@@ -71,4 +71,4 @@ console.log(JSON.stringify(example)); // <-- '{"formatString":"MY NAME IS LINWRU
 
 ---
 
-> Thanks for use!
+> Thanks for using!
