@@ -30,7 +30,7 @@ yarn add reflect2json
 ### Now you can use jsonReflect in any class
 
 ```typescript
-import { jsonFormat, jsonIgnore, jsonPick, jsonReflect } from "reflect2json";
+import { jsonFormat, jsonIgnore, jsonPick, jsonReflect } from "reflect2json"; // use 'reflect2json/lib/src/reflect2json' instead when import failed!
 
 @jsonReflect() // <-- Decorator jsonReflect, it will rewrite this.toJSON for reflcting
 export class Example {
