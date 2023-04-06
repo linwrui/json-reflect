@@ -1,7 +1,7 @@
 {
   "name": "reflect2json",
-  "version": "1.1.4",
-  "description": "A lib for reflect class to json with decorator.",
+  "version": "1.2.0",
+  "description": "A lib for reflecting class to json with decorator in `.ts file`.",
   "scripts": {
     "test": "jest",
     "test-c": "jest --coverage",
@@ -10,18 +10,24 @@
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/linwrui/reflect2json.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "json",
     "reflect",
-    "class to json",
-    "json serialize",
-    "json ignore",
-    "json format"
+    "class2json",
+    "ts2json",
+    "jsonSerialize",
+    "jsonIgnore",
+    "jsonFormat"
   ],
   "author": "linwrui",
   "license": "ISC",
@@ -33,7 +39,7 @@
     "@types/jest": "^26.0.22",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.5",
-    "typescript": "^3.2.0"
+    "typescript": "^4.1.5"
   },
   "jest": {
     "testEnvironment": "node"

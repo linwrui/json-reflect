@@ -31,4 +31,11 @@ export class Example {
     d: "noPick",
     e: "noPick",
   };
+  public json = {
+    toJSON() {
+      return {
+        hello: 'Hello'
+      }
+    }
+  }
 }

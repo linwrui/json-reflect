@@ -49,7 +49,7 @@ function reflect2json(
   if (formatCallback != null && typeof formatCallback === "function") {
     return formatCallback(value, contextObject);
   }
-  return value;
+  return typeof value === 'object' && value.hasOwnProperty('toJSON') ? value.toJSON() : value;
 }
 
 export function jsonReflect(): any {
