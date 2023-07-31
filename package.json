@@ -1,6 +1,6 @@
 {
   "name": "reflect2json",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A lib for reflecting class to json with decorator in `.ts file`.",
   "scripts": {
     "test": "jest",

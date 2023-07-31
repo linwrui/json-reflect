@@ -52,6 +52,10 @@ function reflect2json(
   return typeof value === 'object' && value?.hasOwnProperty('toJSON') ? value.toJSON() : value;
 }
 
+export function reflectToJson(obj: any) {
+  return toJSON.call(obj)
+}
+
 export function jsonReflect(): any {
   const decorator = (target: any, propertyKey: string) => {
     if (!target.prototype.toJSON) {

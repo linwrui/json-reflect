@@ -1,4 +1,5 @@
 import "reflect-metadata";
+export declare function reflectToJson(obj: any): any;
 export declare function jsonReflect(): any;
 /**
  * ignore property to json
